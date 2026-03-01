@@ -1,0 +1,4 @@
+{"Timestamp":"2026-03-01T17:03:57.0104112Z","Level":"INFO","Service":"MainApp","Message":"Sipari\u015F olu\u015Fturuldu","Data":{"Id":"ccc2ed99-944c-4630-aa6e-b71793fc5b1e","Urun":"iPhone 15 Pro","Adet":2}}
+{"Timestamp":"2026-03-01T17:04:37.3344297Z","Level":"INFO","Service":"MainApp","Message":"Sipari\u015F olu\u015Fturuldu","Data":{"Id":"4ec6ce9f-97db-4be1-9c5f-998bf701df90","Urun":"iPhone 16 Pro","Adet":2}}
+{"Timestamp":"2026-03-01T17:04:38.2751992Z","Level":"INFO","Service":"MainApp","Message":"Sipari\u015F olu\u015Fturuldu","Data":{"Id":"14f58db8-f795-4b05-9d81-1dfcd517d2bf","Urun":"iPhone 16 Pro","Adet":2}}
+{"Timestamp":"2026-03-01T17:04:39.1123899Z","Level":"INFO","Service":"MainApp","Message":"Sipari\u015F olu\u015Fturuldu","Data":{"Id":"bf971e80-0fe3-4fbb-a3ac-c5319d8f9710","Urun":"iPhone 16 Pro","Adet":2}}

@@ -1,0 +1,11 @@
+@ExamplePaymentApi_HostAddress = http://localhost:5136
+
+GET {{ExamplePaymentApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+
+
+POST {{ExamplePaymentApi_HostAddress}}/CreatePayment/
+Accept: application/json
+Body:{{amount}}
+###

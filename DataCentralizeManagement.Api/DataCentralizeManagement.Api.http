@@ -1,0 +1,6 @@
+@DataCentralizeManagement.Api_HostAddress = http://localhost:5095
+
+GET {{DataCentralizeManagement.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

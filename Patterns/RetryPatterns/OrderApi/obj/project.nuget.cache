@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "GoK1bUhFg7U=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\fayik\\OneDrive\\Desktop\\BTKAkademiMikroservis\\RetryPatterns\\OrderApi\\OrderApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\fayik\\.nuget\\packages\\microsoft.extensions.http.polly\\10.0.3\\microsoft.extensions.http.polly.10.0.3.nupkg.sha512",
+    "C:\\Users\\fayik\\.nuget\\packages\\polly\\7.2.4\\polly.7.2.4.nupkg.sha512",
+    "C:\\Users\\fayik\\.nuget\\packages\\polly.extensions.http\\3.0.0\\polly.extensions.http.3.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

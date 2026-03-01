@@ -1,0 +1,6 @@
+@BTKAkademiMikroservis_HostAddress = http://localhost:5231
+
+GET {{BTKAkademiMikroservis_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

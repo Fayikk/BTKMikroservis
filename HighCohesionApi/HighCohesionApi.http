@@ -1,0 +1,6 @@
+@HighCohesionApi_HostAddress = http://localhost:5166
+
+GET {{HighCohesionApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
