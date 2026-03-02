@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  seq:
+    image: datalust/seq:latest
+    container_name: seq-server
+    ports:
+      - "5341:80"       
+      - "5342:5341"      
+    environment:
+      ACCEPT_EULA: Y
+      SEQ_FIRSTRUN_ADMINPASSWORD: admin123
+    volumes:
+      - seq_data:/data
+    restart: unless-stopped
+
+volumes:
+  seq_data:

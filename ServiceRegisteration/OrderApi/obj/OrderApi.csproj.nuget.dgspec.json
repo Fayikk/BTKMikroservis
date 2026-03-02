@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\fayik\\OneDrive\\Desktop\\BTKAkademiMikroservis\\ServiceRegisteration\\OrderApi\\OrderApi.csproj": {}
+    "C:\\Users\\fayik\\OneDrive\\Desktop\\BTKAkademiMikroservis\\ServiceRegisteration\\OrderApi\\OrderApi.csproj": {}
   },
   "projects": {
-    "c:\\Users\\fayik\\OneDrive\\Desktop\\BTKAkademiMikroservis\\ServiceRegisteration\\OrderApi\\OrderApi.csproj": {
+    "C:\\Users\\fayik\\OneDrive\\Desktop\\BTKAkademiMikroservis\\ServiceRegisteration\\OrderApi\\OrderApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\fayik\\OneDrive\\Desktop\\BTKAkademiMikroservis\\ServiceRegisteration\\OrderApi\\OrderApi.csproj",
+        "projectUniqueName": "C:\\Users\\fayik\\OneDrive\\Desktop\\BTKAkademiMikroservis\\ServiceRegisteration\\OrderApi\\OrderApi.csproj",
         "projectName": "OrderApi",
-        "projectPath": "c:\\Users\\fayik\\OneDrive\\Desktop\\BTKAkademiMikroservis\\ServiceRegisteration\\OrderApi\\OrderApi.csproj",
+        "projectPath": "C:\\Users\\fayik\\OneDrive\\Desktop\\BTKAkademiMikroservis\\ServiceRegisteration\\OrderApi\\OrderApi.csproj",
         "packagesPath": "C:\\Users\\fayik\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\fayik\\OneDrive\\Desktop\\BTKAkademiMikroservis\\ServiceRegisteration\\OrderApi\\obj\\",
+        "outputPath": "C:\\Users\\fayik\\OneDrive\\Desktop\\BTKAkademiMikroservis\\ServiceRegisteration\\OrderApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "7fZ35NOrjas=",
+  "success": true,
+  "projectFilePath": "c:\\Users\\fayik\\OneDrive\\Desktop\\BTKAkademiMikroservis\\MessageBroker\\PaymentApi\\PaymentApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\fayik\\.nuget\\packages\\consul\\1.7.14.11\\consul.1.7.14.11.nupkg.sha512",
+    "C:\\Users\\fayik\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\fayik\\.nuget\\packages\\rabbitmq.client\\6.8.1\\rabbitmq.client.6.8.1.nupkg.sha512"
+  ],
+  "logs": []
+}
