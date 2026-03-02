@@ -1,0 +1,59 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "PaymentApi/1.0.0": {
+        "dependencies": {
+          "Consul": "1.7.14.11"
+        },
+        "runtime": {
+          "PaymentApi.dll": {}
+        }
+      },
+      "Consul/1.7.14.11": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Consul.dll": {
+            "assemblyVersion": "1.7.14.11",
+            "fileVersion": "1.7.14.11"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.1.25517"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PaymentApi/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Consul/1.7.14.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WIVDY1Ygaul3AfYRdplvRkQtQ0xqUdt/jDHlzUCz4OBpwXiOHyTrahh7GXLVSLVH/6Gpgb1Y/3C5GK+omn6fFQ==",
+      "path": "consul/1.7.14.11",
+      "hashPath": "consul.1.7.14.11.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "path": "newtonsoft.json/13.0.1",
+      "hashPath": "newtonsoft.json.13.0.1.nupkg.sha512"
+    }
+  }
+}
