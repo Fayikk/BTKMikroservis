@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "+3DM3wBf1+0=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\fayik\\OneDrive\\Desktop\\BTKAkademiMikroservis\\ContainerOrchestrator\\ProductService\\ProductService.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\fayik\\.nuget\\packages\\prometheus-net\\8.2.1\\prometheus-net.8.2.1.nupkg.sha512",
+    "C:\\Users\\fayik\\.nuget\\packages\\prometheus-net.aspnetcore\\8.2.1\\prometheus-net.aspnetcore.8.2.1.nupkg.sha512"
+  ],
+  "logs": []
+}
