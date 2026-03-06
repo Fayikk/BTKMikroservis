@@ -1,0 +1,280 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "OrderService/1.0.0": {
+        "dependencies": {
+          "Asp.Versioning.Mvc": "8.1.1",
+          "Asp.Versioning.Mvc.ApiExplorer": "8.1.1",
+          "MassTransit": "8.2.0",
+          "MassTransit.RabbitMQ": "8.2.0",
+          "StackExchange.Redis": "2.7.10",
+          "Swashbuckle.AspNetCore": "6.5.0"
+        },
+        "runtime": {
+          "OrderService.dll": {}
+        }
+      },
+      "Asp.Versioning.Abstractions/8.1.0": {
+        "runtime": {
+          "lib/net8.0/Asp.Versioning.Abstractions.dll": {
+            "assemblyVersion": "8.1.0.0",
+            "fileVersion": "8.1.8851.31619"
+          }
+        }
+      },
+      "Asp.Versioning.Http/8.1.1": {
+        "dependencies": {
+          "Asp.Versioning.Abstractions": "8.1.0"
+        },
+        "runtime": {
+          "lib/net8.0/Asp.Versioning.Http.dll": {
+            "assemblyVersion": "8.1.0.0",
+            "fileVersion": "8.1.9492.33616"
+          }
+        }
+      },
+      "Asp.Versioning.Mvc/8.1.1": {
+        "dependencies": {
+          "Asp.Versioning.Http": "8.1.1"
+        },
+        "runtime": {
+          "lib/net8.0/Asp.Versioning.Mvc.dll": {
+            "assemblyVersion": "8.1.0.0",
+            "fileVersion": "8.1.9492.33616"
+          }
+        }
+      },
+      "Asp.Versioning.Mvc.ApiExplorer/8.1.1": {
+        "dependencies": {
+          "Asp.Versioning.Mvc": "8.1.1"
+        },
+        "runtime": {
+          "lib/net8.0/Asp.Versioning.Mvc.ApiExplorer.dll": {
+            "assemblyVersion": "8.1.0.0",
+            "fileVersion": "8.1.9492.33632"
+          }
+        }
+      },
+      "MassTransit/8.2.0": {
+        "dependencies": {
+          "MassTransit.Abstractions": "8.2.0"
+        },
+        "runtime": {
+          "lib/net8.0/MassTransit.dll": {
+            "assemblyVersion": "8.2.0.0",
+            "fileVersion": "8.2.0.0"
+          }
+        }
+      },
+      "MassTransit.Abstractions/8.2.0": {
+        "runtime": {
+          "lib/net8.0/MassTransit.Abstractions.dll": {
+            "assemblyVersion": "8.2.0.0",
+            "fileVersion": "8.2.0.0"
+          }
+        }
+      },
+      "MassTransit.RabbitMQ/8.2.0": {
+        "dependencies": {
+          "MassTransit": "8.2.0",
+          "RabbitMQ.Client": "6.8.1"
+        },
+        "runtime": {
+          "lib/net8.0/MassTransit.RabbitMqTransport.dll": {
+            "assemblyVersion": "8.2.0.0",
+            "fileVersion": "8.2.0.0"
+          }
+        }
+      },
+      "Microsoft.OpenApi/1.2.3": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.OpenApi.dll": {
+            "assemblyVersion": "1.2.3.0",
+            "fileVersion": "1.2.3.0"
+          }
+        }
+      },
+      "Pipelines.Sockets.Unofficial/2.2.8": {
+        "runtime": {
+          "lib/net5.0/Pipelines.Sockets.Unofficial.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "2.2.8.1080"
+          }
+        }
+      },
+      "RabbitMQ.Client/6.8.1": {
+        "runtime": {
+          "lib/netstandard2.0/RabbitMQ.Client.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.8.1.0"
+          }
+        }
+      },
+      "StackExchange.Redis/2.7.10": {
+        "dependencies": {
+          "Pipelines.Sockets.Unofficial": "2.2.8"
+        },
+        "runtime": {
+          "lib/net6.0/StackExchange.Redis.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.7.10.12442"
+          }
+        }
+      },
+      "Swashbuckle.AspNetCore/6.5.0": {
+        "dependencies": {
+          "Swashbuckle.AspNetCore.Swagger": "6.5.0",
+          "Swashbuckle.AspNetCore.SwaggerGen": "6.5.0",
+          "Swashbuckle.AspNetCore.SwaggerUI": "6.5.0"
+        }
+      },
+      "Swashbuckle.AspNetCore.Swagger/6.5.0": {
+        "dependencies": {
+          "Microsoft.OpenApi": "1.2.3"
+        },
+        "runtime": {
+          "lib/net7.0/Swashbuckle.AspNetCore.Swagger.dll": {
+            "assemblyVersion": "6.5.0.0",
+            "fileVersion": "6.5.0.0"
+          }
+        }
+      },
+      "Swashbuckle.AspNetCore.SwaggerGen/6.5.0": {
+        "dependencies": {
+          "Swashbuckle.AspNetCore.Swagger": "6.5.0"
+        },
+        "runtime": {
+          "lib/net7.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {
+            "assemblyVersion": "6.5.0.0",
+            "fileVersion": "6.5.0.0"
+          }
+        }
+      },
+      "Swashbuckle.AspNetCore.SwaggerUI/6.5.0": {
+        "runtime": {
+          "lib/net7.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {
+            "assemblyVersion": "6.5.0.0",
+            "fileVersion": "6.5.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "OrderService/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Asp.Versioning.Abstractions/8.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mpeNZyMdvrHztJwR1sXIUQ+3iioEU97YMBnFA9WLbsPOYhGwDJnqJMmEd8ny7kcmS9OjTHoEuX/bSXXY3brIFA==",
+      "path": "asp.versioning.abstractions/8.1.0",
+      "hashPath": "asp.versioning.abstractions.8.1.0.nupkg.sha512"
+    },
+    "Asp.Versioning.Http/8.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1D/Mzq1MSUSQe1eCY6GeEsu+tIlpzoWZxZkhlcw/uvtVoTrwO+BMl0fSj/XX8oZN1DutWTZqHDHgyDRq+IeSdQ==",
+      "path": "asp.versioning.http/8.1.1",
+      "hashPath": "asp.versioning.http.8.1.1.nupkg.sha512"
+    },
+    "Asp.Versioning.Mvc/8.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mkJv6eAdlbHbqTdrUcfEYFoZuGL6HoR7O+Lfsvivixp7N5BNhfCFPPOwsBzdIiH1qzdJXyJf+C+DZ08j27PMPg==",
+      "path": "asp.versioning.mvc/8.1.1",
+      "hashPath": "asp.versioning.mvc.8.1.1.nupkg.sha512"
+    },
+    "Asp.Versioning.Mvc.ApiExplorer/8.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-u8PrP6CjmurgIh0EDfg8Gc/GdpDHgkbv8OLKdxQcWb5W4sp0i9BcdbQlLvRcATjNIJUyr7ZmqXjmdsFfqnuy0g==",
+      "path": "asp.versioning.mvc.apiexplorer/8.1.1",
+      "hashPath": "asp.versioning.mvc.apiexplorer.8.1.1.nupkg.sha512"
+    },
+    "MassTransit/8.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Alx6HRIltMXIXB/ORfumP1gMbV7cZURgjvuQ6OaHcvIIyWgTJPqJZuzoR151n2mx1bJOVm0qIFXvMlFig2dUzw==",
+      "path": "masstransit/8.2.0",
+      "hashPath": "masstransit.8.2.0.nupkg.sha512"
+    },
+    "MassTransit.Abstractions/8.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BLMDGGvElV3Lu0KFNHZiui8BmdRCX7Y1WPSM+PW5ZKdBMPUQ3jRriZHglEh5yDLd2luJqG9nRY2+gTPwezFF7w==",
+      "path": "masstransit.abstractions/8.2.0",
+      "hashPath": "masstransit.abstractions.8.2.0.nupkg.sha512"
+    },
+    "MassTransit.RabbitMQ/8.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gl+EEvB5pVaJ5Yb4f2Z7mbmTY2t/fdghG9GFKDf0zXVR+qd1R1GBD/Z5FZ/Q7RrEZZbzaDb4zbOtj6er6ykPEA==",
+      "path": "masstransit.rabbitmq/8.2.0",
+      "hashPath": "masstransit.rabbitmq.8.2.0.nupkg.sha512"
+    },
+    "Microsoft.OpenApi/1.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Nug3rO+7Kl5/SBAadzSMAVgqDlfGjJZ0GenQrLywJ84XGKO0uRqkunz5Wyl0SDwcR71bAATXvSdbdzPrYRYKGw==",
+      "path": "microsoft.openapi/1.2.3",
+      "hashPath": "microsoft.openapi.1.2.3.nupkg.sha512"
+    },
+    "Pipelines.Sockets.Unofficial/2.2.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zG2FApP5zxSx6OcdJQLbZDk2AVlN2BNQD6MorwIfV6gVj0RRxWPEp2LXAxqDGZqeNV1Zp0BNPcNaey/GXmTdvQ==",
+      "path": "pipelines.sockets.unofficial/2.2.8",
+      "hashPath": "pipelines.sockets.unofficial.2.2.8.nupkg.sha512"
+    },
+    "RabbitMQ.Client/6.8.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jNsmGgmCNw2S/NzskeN2ijtGywtH4Sk/G6jWUTD5sY9SrC27Xz6BsLIiB8hdsfjeyWCa4j4GvCIGkpE8wrjU1Q==",
+      "path": "rabbitmq.client/6.8.1",
+      "hashPath": "rabbitmq.client.6.8.1.nupkg.sha512"
+    },
+    "StackExchange.Redis/2.7.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DHC438nKZUbtJ0H8O5pCTMrurYy6ByUPhzUNAPCUADtI4BSyvASpWAquYjN+4NKEiKaW5AO++tgftum3tDraPQ==",
+      "path": "stackexchange.redis/2.7.10",
+      "hashPath": "stackexchange.redis.2.7.10.nupkg.sha512"
+    },
+    "Swashbuckle.AspNetCore/6.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FK05XokgjgwlCI6wCT+D4/abtQkL1X1/B9Oas6uIwHFmYrIO9WUD5aLC9IzMs9GnHfUXOtXZ2S43gN1mhs5+aA==",
+      "path": "swashbuckle.aspnetcore/6.5.0",
+      "hashPath": "swashbuckle.aspnetcore.6.5.0.nupkg.sha512"
+    },
+    "Swashbuckle.AspNetCore.Swagger/6.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XWmCmqyFmoItXKFsQSwQbEAsjDKcxlNf1l+/Ki42hcb6LjKL8m5Db69OTvz5vLonMSRntYO1XLqz0OP+n3vKnA==",
+      "path": "swashbuckle.aspnetcore.swagger/6.5.0",
+      "hashPath": "swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512"
+    },
+    "Swashbuckle.AspNetCore.SwaggerGen/6.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Y/qW8Qdg9OEs7V013tt+94OdPxbRdbhcEbw4NiwGvf4YBcfhL/y7qp/Mjv/cENsQ2L3NqJ2AOu94weBy/h4KvA==",
+      "path": "swashbuckle.aspnetcore.swaggergen/6.5.0",
+      "hashPath": "swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512"
+    },
+    "Swashbuckle.AspNetCore.SwaggerUI/6.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OvbvxX+wL8skxTBttcBsVxdh73Fag4xwqEU2edh4JMn7Ws/xJHnY/JB1e9RoCb6XpDxUF3hD9A0Z1lEUx40Pfw==",
+      "path": "swashbuckle.aspnetcore.swaggerui/6.5.0",
+      "hashPath": "swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+    }
+  }
+}

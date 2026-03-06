@@ -2,6 +2,70 @@
   "version": 3,
   "targets": {
     "net10.0": {
+      "Asp.Versioning.Abstractions/8.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Asp.Versioning.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Asp.Versioning.Abstractions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Asp.Versioning.Http/8.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Asp.Versioning.Abstractions": "8.1.0"
+        },
+        "compile": {
+          "lib/net8.0/Asp.Versioning.Http.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Asp.Versioning.Http.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "Asp.Versioning.Mvc/8.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Asp.Versioning.Http": "8.1.1"
+        },
+        "compile": {
+          "lib/net8.0/Asp.Versioning.Mvc.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Asp.Versioning.Mvc.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Asp.Versioning.Mvc.ApiExplorer/8.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Asp.Versioning.Mvc": "8.1.1"
+        },
+        "compile": {
+          "lib/net8.0/Asp.Versioning.Mvc.ApiExplorer.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Asp.Versioning.Mvc.ApiExplorer.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "MassTransit/8.2.0": {
         "type": "package",
         "dependencies": {
@@ -180,6 +244,74 @@
     }
   },
   "libraries": {
+    "Asp.Versioning.Abstractions/8.1.0": {
+      "sha512": "mpeNZyMdvrHztJwR1sXIUQ+3iioEU97YMBnFA9WLbsPOYhGwDJnqJMmEd8ny7kcmS9OjTHoEuX/bSXXY3brIFA==",
+      "type": "package",
+      "path": "asp.versioning.abstractions/8.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "asp.versioning.abstractions.8.1.0.nupkg.sha512",
+        "asp.versioning.abstractions.nuspec",
+        "icon.png",
+        "lib/net8.0/Asp.Versioning.Abstractions.dll",
+        "lib/net8.0/Asp.Versioning.Abstractions.xml",
+        "lib/netstandard1.0/Asp.Versioning.Abstractions.dll",
+        "lib/netstandard1.0/Asp.Versioning.Abstractions.xml",
+        "lib/netstandard2.0/Asp.Versioning.Abstractions.dll",
+        "lib/netstandard2.0/Asp.Versioning.Abstractions.xml"
+      ]
+    },
+    "Asp.Versioning.Http/8.1.1": {
+      "sha512": "1D/Mzq1MSUSQe1eCY6GeEsu+tIlpzoWZxZkhlcw/uvtVoTrwO+BMl0fSj/XX8oZN1DutWTZqHDHgyDRq+IeSdQ==",
+      "type": "package",
+      "path": "asp.versioning.http/8.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "asp.versioning.http.8.1.1.nupkg.sha512",
+        "asp.versioning.http.nuspec",
+        "icon.png",
+        "lib/net8.0/Asp.Versioning.Http.dll",
+        "lib/net8.0/Asp.Versioning.Http.xml"
+      ]
+    },
+    "Asp.Versioning.Mvc/8.1.1": {
+      "sha512": "mkJv6eAdlbHbqTdrUcfEYFoZuGL6HoR7O+Lfsvivixp7N5BNhfCFPPOwsBzdIiH1qzdJXyJf+C+DZ08j27PMPg==",
+      "type": "package",
+      "path": "asp.versioning.mvc/8.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "asp.versioning.mvc.8.1.1.nupkg.sha512",
+        "asp.versioning.mvc.nuspec",
+        "icon.png",
+        "lib/net8.0/Asp.Versioning.Mvc.dll",
+        "lib/net8.0/Asp.Versioning.Mvc.xml"
+      ]
+    },
+    "Asp.Versioning.Mvc.ApiExplorer/8.1.1": {
+      "sha512": "u8PrP6CjmurgIh0EDfg8Gc/GdpDHgkbv8OLKdxQcWb5W4sp0i9BcdbQlLvRcATjNIJUyr7ZmqXjmdsFfqnuy0g==",
+      "type": "package",
+      "path": "asp.versioning.mvc.apiexplorer/8.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "asp.versioning.mvc.apiexplorer.8.1.1.nupkg.sha512",
+        "asp.versioning.mvc.apiexplorer.nuspec",
+        "icon.png",
+        "lib/net8.0/Asp.Versioning.Mvc.ApiExplorer.dll",
+        "lib/net8.0/Asp.Versioning.Mvc.ApiExplorer.xml"
+      ]
+    },
     "MassTransit/8.2.0": {
       "sha512": "Alx6HRIltMXIXB/ORfumP1gMbV7cZURgjvuQ6OaHcvIIyWgTJPqJZuzoR151n2mx1bJOVm0qIFXvMlFig2dUzw==",
       "type": "package",
@@ -657,6 +789,8 @@
   },
   "projectFileDependencyGroups": {
     "net10.0": [
+      "Asp.Versioning.Mvc >= 8.1.1",
+      "Asp.Versioning.Mvc.ApiExplorer >= 8.1.1",
       "MassTransit >= 8.2.0",
       "MassTransit.RabbitMQ >= 8.2.0",
       "StackExchange.Redis >= 2.7.10",
@@ -715,6 +849,14 @@
       "net10.0": {
         "targetAlias": "net10.0",
         "dependencies": {
+          "Asp.Versioning.Mvc": {
+            "target": "Package",
+            "version": "[8.1.1, )"
+          },
+          "Asp.Versioning.Mvc.ApiExplorer": {
+            "target": "Package",
+            "version": "[8.1.1, )"
+          },
           "MassTransit": {
             "target": "Package",
             "version": "[8.2.0, )"

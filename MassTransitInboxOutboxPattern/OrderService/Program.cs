@@ -1,3 +1,4 @@
+using Asp.Versioning;
 using MassTransit;
 using OrderService.Outbox;
 using StackExchange.Redis;
@@ -32,6 +33,54 @@ builder.Services.AddMassTransit(x =>
         cfg.ConfigureEndpoints(context);
     });
 });
+
+builder.Services.AddApiVersioning(options =>
+{
+
+    options.ApiVersionReader = new QueryStringApiVersionReader("api-version");
+
+    options.DefaultApiVersion = new Asp.Versioning.ApiVersion(1,0);
+    options.AssumeDefaultVersionWhenUnspecified = true;
+
+    options.ReportApiVersions = true;
+}).AddApiExplorer(options =>
+{
+    options.GroupNameFormat = "'v'VVV";
+    options.SubstituteApiVersionInUrl = true;
+});
+
+builder.Services.AddApiVersioning(options =>
+{
+
+    options.ApiVersionReader = new HeaderApiVersionReader("X-Api-Version");
+
+    options.DefaultApiVersion = new Asp.Versioning.ApiVersion(1,0);
+    options.AssumeDefaultVersionWhenUnspecified = true;
+
+    options.ReportApiVersions = true;
+}).AddApiExplorer(options =>
+{
+    options.GroupNameFormat = "'v'VVV";
+    options.SubstituteApiVersionInUrl = false;
+});
+
+
+
+builder.Services.AddApiVersioning(options =>
+{
+
+    options.ApiVersionReader = new MediaTypeApiVersionReader("v");
+
+    options.DefaultApiVersion = new Asp.Versioning.ApiVersion(1,0);
+    options.AssumeDefaultVersionWhenUnspecified = true;
+
+    options.ReportApiVersions = true;
+}).AddApiExplorer(options =>
+{
+    options.GroupNameFormat = "'v'VVV";
+    options.SubstituteApiVersionInUrl = false;
+});
+
 var app = builder.Build();
 
 

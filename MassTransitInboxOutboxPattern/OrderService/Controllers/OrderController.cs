@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Asp.Versioning;
 using MassTransit;
 using Microsoft.AspNetCore.Mvc;
 using OrderService.Outbox;
@@ -10,6 +11,8 @@ using Shared;
 namespace OrderService.Controllers
 {
     [ApiController]
+    [ApiVersion("1.0")]
+    [ApiVersion("2.0")]
     [Route("api/[controller]")]
     public class OrderController : ControllerBase
     {
@@ -26,6 +29,28 @@ namespace OrderService.Controllers
         _outboxService = outboxService;
         _logger = logger;
     }
+
+
+    [HttpGet("GetList/{message}")]   
+    [MapToApiVersion("2.0")]
+    public IActionResult GetV2(string message)
+        {
+            
+
+        return Ok(new List<string>() { "test", $"{message}" });
+      
+        }
+
+          [HttpGet("GetList/{message}")]   
+    [MapToApiVersion("1.0")]
+    public IActionResult GetV1(string message)
+        {
+            
+
+               return Ok(new List<string>() { "deneme", $"{message}" });
+
+      
+        }
 
  [HttpPost]
     public async Task<IActionResult> CreateOrder([FromBody] CreateOrderRequest request)
