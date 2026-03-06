@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "dgSpecHash": "8xkzNtlxWOo=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\fayik\\OneDrive\\Desktop\\BTKAkademiMikroservis\\Grpc\\OrderService\\OrderService.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\fayik\\.nuget\\packages\\google.protobuf\\3.24.0\\google.protobuf.3.24.0.nupkg.sha512",
+    "C:\\Users\\fayik\\.nuget\\packages\\grpc.aspnetcore\\2.60.0\\grpc.aspnetcore.2.60.0.nupkg.sha512",
+    "C:\\Users\\fayik\\.nuget\\packages\\grpc.aspnetcore.server\\2.60.0\\grpc.aspnetcore.server.2.60.0.nupkg.sha512",
+    "C:\\Users\\fayik\\.nuget\\packages\\grpc.aspnetcore.server.clientfactory\\2.60.0\\grpc.aspnetcore.server.clientfactory.2.60.0.nupkg.sha512",
+    "C:\\Users\\fayik\\.nuget\\packages\\grpc.core.api\\2.60.0\\grpc.core.api.2.60.0.nupkg.sha512",
+    "C:\\Users\\fayik\\.nuget\\packages\\grpc.net.client\\2.60.0\\grpc.net.client.2.60.0.nupkg.sha512",
+    "C:\\Users\\fayik\\.nuget\\packages\\grpc.net.clientfactory\\2.60.0\\grpc.net.clientfactory.2.60.0.nupkg.sha512",
+    "C:\\Users\\fayik\\.nuget\\packages\\grpc.net.common\\2.60.0\\grpc.net.common.2.60.0.nupkg.sha512",
+    "C:\\Users\\fayik\\.nuget\\packages\\grpc.tools\\2.60.0\\grpc.tools.2.60.0.nupkg.sha512",
+    "C:\\Users\\fayik\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\fayik\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\fayik\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\fayik\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\fayik\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\fayik\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

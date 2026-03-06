@@ -1,0 +1,41 @@
+version: '3.8'
+
+services:
+  order-api-service:
+    build:
+      context: .
+      dockerfile: OrderApiService/Dockerfile
+    container_name: order-api-service
+    ports:
+      - "5004:80"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:80
+      - GraphQL__Url=http://product-graphql-service:80/graphql
+    depends_on:
+      product-graphql-service:
+        condition: service_started
+    networks:
+      - graphql-network
+  product-graphql-service:
+    build:
+      context: .
+      dockerfile: ProductGraphQLService/Dockerfile
+    container_name: product-graphql-service
+    ports:
+      - "5003:80"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:80
+    networks:
+      - graphql-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost/graphql?query=%7B__typename%7D"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+
+networks:
+  graphql-network:
+    driver: bridge

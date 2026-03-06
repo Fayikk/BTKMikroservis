@@ -1,0 +1,15 @@
+C:\Users\fayik\OneDrive\Desktop\BTKAkademiMikroservis\DDD\ValueObject\bin\Debug\net10.0\ValueObject.exe
+C:\Users\fayik\OneDrive\Desktop\BTKAkademiMikroservis\DDD\ValueObject\bin\Debug\net10.0\ValueObject.deps.json
+C:\Users\fayik\OneDrive\Desktop\BTKAkademiMikroservis\DDD\ValueObject\bin\Debug\net10.0\ValueObject.runtimeconfig.json
+C:\Users\fayik\OneDrive\Desktop\BTKAkademiMikroservis\DDD\ValueObject\bin\Debug\net10.0\ValueObject.dll
+C:\Users\fayik\OneDrive\Desktop\BTKAkademiMikroservis\DDD\ValueObject\bin\Debug\net10.0\ValueObject.pdb
+C:\Users\fayik\OneDrive\Desktop\BTKAkademiMikroservis\DDD\ValueObject\obj\Debug\net10.0\ValueObject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fayik\OneDrive\Desktop\BTKAkademiMikroservis\DDD\ValueObject\obj\Debug\net10.0\ValueObject.AssemblyInfoInputs.cache
+C:\Users\fayik\OneDrive\Desktop\BTKAkademiMikroservis\DDD\ValueObject\obj\Debug\net10.0\ValueObject.AssemblyInfo.cs
+C:\Users\fayik\OneDrive\Desktop\BTKAkademiMikroservis\DDD\ValueObject\obj\Debug\net10.0\ValueObject.csproj.CoreCompileInputs.cache
+C:\Users\fayik\OneDrive\Desktop\BTKAkademiMikroservis\DDD\ValueObject\obj\Debug\net10.0\ValueObject.sourcelink.json
+C:\Users\fayik\OneDrive\Desktop\BTKAkademiMikroservis\DDD\ValueObject\obj\Debug\net10.0\ValueObject.dll
+C:\Users\fayik\OneDrive\Desktop\BTKAkademiMikroservis\DDD\ValueObject\obj\Debug\net10.0\refint\ValueObject.dll
+C:\Users\fayik\OneDrive\Desktop\BTKAkademiMikroservis\DDD\ValueObject\obj\Debug\net10.0\ValueObject.pdb
+C:\Users\fayik\OneDrive\Desktop\BTKAkademiMikroservis\DDD\ValueObject\obj\Debug\net10.0\ValueObject.genruntimeconfig.cache
+C:\Users\fayik\OneDrive\Desktop\BTKAkademiMikroservis\DDD\ValueObject\obj\Debug\net10.0\ref\ValueObject.dll
