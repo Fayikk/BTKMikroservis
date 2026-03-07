@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fayik\\OneDrive\\Desktop\\BTKAkademiMikroservis\\Patterns\\SidecarPattern\\MainApp\\MainApp.csproj": {}
+    "c:\\Users\\fayik\\OneDrive\\Desktop\\BTKAkademiMikroservis\\Patterns\\SidecarPattern\\MainApp\\MainApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fayik\\OneDrive\\Desktop\\BTKAkademiMikroservis\\Patterns\\SidecarPattern\\MainApp\\MainApp.csproj": {
+    "c:\\Users\\fayik\\OneDrive\\Desktop\\BTKAkademiMikroservis\\Patterns\\SidecarPattern\\MainApp\\MainApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fayik\\OneDrive\\Desktop\\BTKAkademiMikroservis\\Patterns\\SidecarPattern\\MainApp\\MainApp.csproj",
+        "projectUniqueName": "c:\\Users\\fayik\\OneDrive\\Desktop\\BTKAkademiMikroservis\\Patterns\\SidecarPattern\\MainApp\\MainApp.csproj",
         "projectName": "MainApp",
-        "projectPath": "C:\\Users\\fayik\\OneDrive\\Desktop\\BTKAkademiMikroservis\\Patterns\\SidecarPattern\\MainApp\\MainApp.csproj",
+        "projectPath": "c:\\Users\\fayik\\OneDrive\\Desktop\\BTKAkademiMikroservis\\Patterns\\SidecarPattern\\MainApp\\MainApp.csproj",
         "packagesPath": "C:\\Users\\fayik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fayik\\OneDrive\\Desktop\\BTKAkademiMikroservis\\Patterns\\SidecarPattern\\MainApp\\obj\\",
+        "outputPath": "c:\\Users\\fayik\\OneDrive\\Desktop\\BTKAkademiMikroservis\\Patterns\\SidecarPattern\\MainApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

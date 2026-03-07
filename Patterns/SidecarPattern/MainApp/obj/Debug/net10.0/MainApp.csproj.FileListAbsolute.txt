@@ -26,3 +26,4 @@ C:\Users\fayik\OneDrive\Desktop\BTKAkademiMikroservis\Patterns\SidecarPattern\Ma
 C:\Users\fayik\OneDrive\Desktop\BTKAkademiMikroservis\Patterns\SidecarPattern\MainApp\obj\Debug\net10.0\MainApp.pdb
 C:\Users\fayik\OneDrive\Desktop\BTKAkademiMikroservis\Patterns\SidecarPattern\MainApp\obj\Debug\net10.0\MainApp.genruntimeconfig.cache
 C:\Users\fayik\OneDrive\Desktop\BTKAkademiMikroservis\Patterns\SidecarPattern\MainApp\obj\Debug\net10.0\ref\MainApp.dll
+c:\Users\fayik\OneDrive\Desktop\BTKAkademiMikroservis\Patterns\SidecarPattern\MainApp\obj\Debug\net10.0\MainApp.sourcelink.json
