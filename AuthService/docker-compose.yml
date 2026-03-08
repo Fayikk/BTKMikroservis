@@ -1,0 +1,47 @@
+version: '3.8'
+
+services:
+  identityserver:
+    build: ./IdentityServer
+    container_name: identityserver
+    ports:
+      - "5001:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - JWT_SECRET=SuperSecretKeyForJWTTokenAuth12345!
+      - JWT_ISSUER=ServiceAuthDemo
+      - JWT_AUDIENCE=MicroserviceClients
+    networks:
+      - service-auth-network
+
+  apigateway:
+    build: ./ApiGateway
+    container_name: apigateway
+    ports:
+      - "5000:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - JWT_SECRET=SuperSecretKeyForJWTTokenAuth12345!
+      - JWT_ISSUER=ServiceAuthDemo
+      - JWT_AUDIENCE=MicroserviceClients
+      - GATEWAY_SECRET=GatewayInternalSecret2024!
+      - IDENTITY_SERVER_URL=http://identityserver:8080
+      - ORDER_SERVICE_URL=http://orderservice:8080
+    depends_on:
+      - identityserver
+      - orderservice
+    networks:
+      - service-auth-network
+  orderservice:
+    build: ./OrderService
+    container_name: orderservice
+    ports:
+      - "5002:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - GATEWAY_SECRET=GatewayInternalSecret2024!
+    networks:
+      - service-auth-network
+networks:
+  service-auth-network:
+    driver: bridge
