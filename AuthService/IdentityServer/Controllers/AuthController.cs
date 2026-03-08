@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using IdentityServer.Models;
 using IdentityServer.Services;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.RateLimiting;
 
 namespace IdentityServer.Controllers
 {
@@ -25,7 +26,8 @@ namespace IdentityServer.Controllers
             _jwtService = jwtService;
             _logger = logger;
         }
-
+ 
+            [EnableRateLimiting("fixed")] 
              [HttpPost("login")]
         public IActionResult Login([FromBody] LoginRequest request)
         {
