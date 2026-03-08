@@ -1,0 +1,65 @@
+version: '3.8'
+
+services:
+
+  jaeger:
+    image: jaegertracing/all-in-one:latest
+    ports:
+      - "16686:16686"  # Jaeger UI
+      - "4317:4317"    # OTLP gRPC receiver
+      - "4318:4318"    # OTLP HTTP receiver
+    environment:
+      - COLLECTOR_OTLP_ENABLED=true
+    networks:
+      - correlationid-network
+  apigateway:
+    build:
+      context: ./ApiGateway
+      dockerfile: Dockerfile
+    ports:
+      - "5000:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:8080
+      - ORDER_SERVICE_URL=http://orderservice:8080
+      - OpenTelemetry__OtlpEndpoint=http://jaeger:4317
+    depends_on:
+      - jaeger
+      - orderservice
+    networks:
+      - correlationid-network
+  orderservice:
+    build:
+      context: ./OrderService
+      dockerfile: Dockerfile
+    ports:
+      - "5001:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:8080
+      - PAYMENT_SERVICE_URL=http://paymentservice:8080
+      - OpenTelemetry__OtlpEndpoint=http://jaeger:4317
+    depends_on:
+      - paymentservice
+      - jaeger
+    networks:
+      - correlationid-network
+
+  paymentservice:
+    build:
+      context: ./PaymentService
+      dockerfile: Dockerfile
+    ports:
+      - "5002:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:8080
+      - OpenTelemetry__OtlpEndpoint=http://jaeger:4317
+    depends_on:
+      - jaeger
+    networks:
+      - correlationid-network
+      
+networks:
+  correlationid-network:
+    driver: bridge

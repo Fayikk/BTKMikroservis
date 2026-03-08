@@ -1,0 +1,48 @@
+{
+  "version": 2,
+  "dgSpecHash": "12u16u8IbzU=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\fayik\\OneDrive\\Desktop\\BTKAkademiMikroservis\\DistributedTracing\\PaymentService\\PaymentService.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\fayik\\.nuget\\packages\\google.protobuf\\3.22.5\\google.protobuf.3.22.5.nupkg.sha512",
+    "C:\\Users\\fayik\\.nuget\\packages\\grpc.core.api\\2.52.0\\grpc.core.api.2.52.0.nupkg.sha512",
+    "C:\\Users\\fayik\\.nuget\\packages\\grpc.net.client\\2.52.0\\grpc.net.client.2.52.0.nupkg.sha512",
+    "C:\\Users\\fayik\\.nuget\\packages\\grpc.net.common\\2.52.0\\grpc.net.common.2.52.0.nupkg.sha512",
+    "C:\\Users\\fayik\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.2\\microsoft.aspnetcore.openapi.10.0.2.nupkg.sha512",
+    "C:\\Users\\fayik\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512",
+    "C:\\Users\\fayik\\.nuget\\packages\\opentelemetry\\1.10.0\\opentelemetry.1.10.0.nupkg.sha512",
+    "C:\\Users\\fayik\\.nuget\\packages\\opentelemetry.api\\1.11.1\\opentelemetry.api.1.11.1.nupkg.sha512",
+    "C:\\Users\\fayik\\.nuget\\packages\\opentelemetry.api.providerbuilderextensions\\1.11.1\\opentelemetry.api.providerbuilderextensions.1.11.1.nupkg.sha512",
+    "C:\\Users\\fayik\\.nuget\\packages\\opentelemetry.exporter.console\\1.10.0\\opentelemetry.exporter.console.1.10.0.nupkg.sha512",
+    "C:\\Users\\fayik\\.nuget\\packages\\opentelemetry.exporter.opentelemetryprotocol\\1.10.0\\opentelemetry.exporter.opentelemetryprotocol.1.10.0.nupkg.sha512",
+    "C:\\Users\\fayik\\.nuget\\packages\\opentelemetry.extensions.hosting\\1.10.0\\opentelemetry.extensions.hosting.1.10.0.nupkg.sha512",
+    "C:\\Users\\fayik\\.nuget\\packages\\opentelemetry.instrumentation.aspnetcore\\1.10.1\\opentelemetry.instrumentation.aspnetcore.1.10.1.nupkg.sha512",
+    "C:\\Users\\fayik\\.nuget\\packages\\opentelemetry.instrumentation.http\\1.11.0\\opentelemetry.instrumentation.http.1.11.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "message": "PaymentService, OpenTelemetry.Instrumentation.Http (>= 1.10.1) öğesine bağlı ancak OpenTelemetry.Instrumentation.Http 1.10.1 bulunamadı. Bunun yerine OpenTelemetry.Instrumentation.Http 1.11.0 çözümlendi.",
+      "projectPath": "C:\\Users\\fayik\\OneDrive\\Desktop\\BTKAkademiMikroservis\\DistributedTracing\\PaymentService\\PaymentService.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\fayik\\OneDrive\\Desktop\\BTKAkademiMikroservis\\DistributedTracing\\PaymentService\\PaymentService.csproj",
+      "libraryId": "OpenTelemetry.Instrumentation.Http",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "'OpenTelemetry.Api' 1.11.1 paketinde önem derecesi orta olan bilinen bir https://github.com/advisories/GHSA-8785-wc3w-h8q6 güvenlik açığı var",
+      "projectPath": "C:\\Users\\fayik\\OneDrive\\Desktop\\BTKAkademiMikroservis\\DistributedTracing\\PaymentService\\PaymentService.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\fayik\\OneDrive\\Desktop\\BTKAkademiMikroservis\\DistributedTracing\\PaymentService\\PaymentService.csproj",
+      "libraryId": "OpenTelemetry.Api",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
+}
