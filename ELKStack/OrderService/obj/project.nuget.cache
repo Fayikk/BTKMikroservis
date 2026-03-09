@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "dgSpecHash": "RjfNyoKEZ4M=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\fayik\\OneDrive\\Desktop\\BTKAkademiMikroservis\\ELKStack\\OrderService\\OrderService.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\fayik\\.nuget\\packages\\elasticsearch.net\\7.17.5\\elasticsearch.net.7.17.5.nupkg.sha512",
+    "C:\\Users\\fayik\\.nuget\\packages\\microsoft.extensions.dependencymodel\\8.0.0\\microsoft.extensions.dependencymodel.8.0.0.nupkg.sha512",
+    "C:\\Users\\fayik\\.nuget\\packages\\serilog\\4.0.0\\serilog.4.0.0.nupkg.sha512",
+    "C:\\Users\\fayik\\.nuget\\packages\\serilog.aspnetcore\\8.0.1\\serilog.aspnetcore.8.0.1.nupkg.sha512",
+    "C:\\Users\\fayik\\.nuget\\packages\\serilog.enrichers.environment\\3.0.1\\serilog.enrichers.environment.3.0.1.nupkg.sha512",
+    "C:\\Users\\fayik\\.nuget\\packages\\serilog.enrichers.thread\\4.0.0\\serilog.enrichers.thread.4.0.0.nupkg.sha512",
+    "C:\\Users\\fayik\\.nuget\\packages\\serilog.extensions.hosting\\8.0.0\\serilog.extensions.hosting.8.0.0.nupkg.sha512",
+    "C:\\Users\\fayik\\.nuget\\packages\\serilog.extensions.logging\\8.0.0\\serilog.extensions.logging.8.0.0.nupkg.sha512",
+    "C:\\Users\\fayik\\.nuget\\packages\\serilog.formatting.compact\\2.0.0\\serilog.formatting.compact.2.0.0.nupkg.sha512",
+    "C:\\Users\\fayik\\.nuget\\packages\\serilog.formatting.elasticsearch\\10.0.0\\serilog.formatting.elasticsearch.10.0.0.nupkg.sha512",
+    "C:\\Users\\fayik\\.nuget\\packages\\serilog.settings.configuration\\8.0.0\\serilog.settings.configuration.8.0.0.nupkg.sha512",
+    "C:\\Users\\fayik\\.nuget\\packages\\serilog.sinks.console\\5.0.0\\serilog.sinks.console.5.0.0.nupkg.sha512",
+    "C:\\Users\\fayik\\.nuget\\packages\\serilog.sinks.debug\\2.0.0\\serilog.sinks.debug.2.0.0.nupkg.sha512",
+    "C:\\Users\\fayik\\.nuget\\packages\\serilog.sinks.elasticsearch\\10.0.0\\serilog.sinks.elasticsearch.10.0.0.nupkg.sha512",
+    "C:\\Users\\fayik\\.nuget\\packages\\serilog.sinks.file\\5.0.0\\serilog.sinks.file.5.0.0.nupkg.sha512",
+    "C:\\Users\\fayik\\.nuget\\packages\\serilog.sinks.periodicbatching\\4.0.0\\serilog.sinks.periodicbatching.4.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
